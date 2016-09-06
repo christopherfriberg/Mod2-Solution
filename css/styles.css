@@ -4,11 +4,13 @@
 
 body {
   font-family: Georgia, serif;
-  text-align: center;
+  padding: 15px;
 }
 
 h1 {
   font-size: 1.75em;
+  text-align: center;
+  padding-bottom: 15px;
 }
 
 h2 {
@@ -17,9 +19,9 @@ h2 {
   text-align: center;
   width: 30%;
   height: 24%;
-  padding-top: .25em;
+  padding-top: .5em;
   position: absolute;
-  left: 70.20%;
+  right: -0.20%;
   top: -.5%;
   border: 1px solid black;
 }
@@ -40,16 +42,16 @@ h2 {
 .menuitem {
   background-color: #c7e3ff;
   min-width: 300px;
-  min-height: 155px;
+  min-height: 170px;
   border: 1px solid black;
   margin: 10px;
   position: relative;
 }
 
 .description {
-  margin-top: 50px;
-  padding-left: .25em;
-  padding-right: .25em;
+  margin-top: 55px;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 /* Simple Responsive Framework. */
