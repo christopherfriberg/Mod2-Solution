@@ -1,6 +1,5 @@
 * {
-  box-sizing: border-box;
-  
+  box-sizing: border-box; 
 }
 
 body {
@@ -10,21 +9,19 @@ body {
 
 h1 {
   font-size: 1.75em;
-  text-align: center;
 }
 
 h2 {
+  margin: 0;
   font-size: 1.25em;
   text-align: center;
   width: 30%;
-  position: relative;
-  left: 30%;
+  height: 24%;
+  padding-top: .25em;
+  position: absolute;
+  left: 70.20%;
+  top: -.5%;
   border: 1px solid black;
-}
-
-p {
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .chicken {
@@ -33,6 +30,7 @@ p {
 
 .beef {
   background-color: #ff4d4d;
+  color: #ffffff;
 }
 
 .sushi {
@@ -41,9 +39,17 @@ p {
 
 .menuitem {
   background-color: #c7e3ff;
+  min-width: 300px;
+  min-height: 155px;
   border: 1px solid black;
-  margin: 1%;
-  padding: .25em;
+  margin: 10px;
+  position: relative;
+}
+
+.description {
+  margin-top: 50px;
+  padding-left: .25em;
+  padding-right: .25em;
 }
 
 /* Simple Responsive Framework. */
@@ -55,7 +61,6 @@ p {
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    min-height: 140px;
   }
   .col-lg-1 {
     width: 8.33%;
